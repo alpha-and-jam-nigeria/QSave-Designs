@@ -26,6 +26,9 @@ html {
     color: #7e96b8;
     font-family: 'Raleway', sans-serif;
 }
+.navbar-expand-lg .navbar-nav .active{
+    color: #0067f5;
+}
 
 .navbar-nav .nav-link img{
     height: 20px;
@@ -233,4 +236,73 @@ p{
 .trans-table tbody tr:hover{
     background: rgba(28,164,246,0.08) !important;
     cursor: pointer;
+}
+.btn-rounded{
+    border-radius: 50px;
+}
+.btn-cir{
+    background: #0000004a;
+    padding: 11px 12px;
+    border-radius: 32px;
+    font-size: 10px;
+}
+.card-input{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 0px;
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 1px solid;
+}
+.custom-tab{
+    margin-bottom: -14px
+}
+.custom-tab a{
+    padding: 21px 19px 21px 0px;
+    font-size: 14px;
+    margin-right: 24px;
+}
+.custom-tab a.active{
+    font-weight: bold;
+    color: #0061f9;
+    border-bottom: 3px solid;
+}
+.invite-header{
+    background: url(../img/savings/invite-bg.svg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    padding: 90px 0px;
+}
+.invite-header h1{
+    color: white;
+    font-size: 50px;
+}
+.invite-action{
+    margin-top: 20px;
+}
+.invite-action a{
+    margin-top: 30px;
+    font-size: 30px;
+    margin-right: 20px;
+    color: #b9b9b9;
+}
+.card-share{
+    box-shadow: 0px 3px 13px 3px #0066e029;
+    border-radius: 24px;
+}
+.neg-card{
+    margin-top: -80px;
+}
+.reward-amt{
+    color: white;
+    font-size: 70px;
+}
+.reward-amt sup{
+    font-size: 36px;
+}
+.response-info{
+    font-size: 76px;
+    line-height: 1;
+    font-weight: bold;
 }
