@@ -58,7 +58,7 @@ html {
 }
 
 .bg-prim-dash {
-    background: -webkit-linear-gradient(left, #5FA5EE 0%, #565EDC 150%);
+    background: #0067f5;
     padding: 0px;
 }
 
@@ -192,7 +192,7 @@ footer p{
     color: #4e5c6e;
 }
 .btn-primm{
-    background: -webkit-linear-gradient(left, #5FA5EE 0%, #565EDC 150%);
+    background: #0067f5;
     text-transform: capitalize;
 }
 .plan-amt{
@@ -205,7 +205,7 @@ footer p{
 }
 .card-bgg{
     color: white;
-    background: -webkit-linear-gradient(left, #5FA5EE 0%, #565EDC 150%);
+    background: #0067f5;
 }
 .card-bgg .card-top span, .card-bgg h3{
     color: white;
