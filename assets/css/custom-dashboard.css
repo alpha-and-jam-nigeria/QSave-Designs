@@ -28,7 +28,7 @@ html {
 }
 
 .navbar-expand-lg .navbar-nav .active {
-    color: #0067f5;
+    color: #74c947;
 }
 
 .navbar-nav .nav-link img {
@@ -59,7 +59,7 @@ html {
 }
 
 .bg-prim-dash {
-    background: #0067f5;
+    background: #74c947;
     padding: 0px;
 }
 
@@ -83,7 +83,7 @@ html {
 }
 
 .btn-purple {
-    background-color: #0067f5;
+    background-color: #74c947;
 }
 
 .btn-blue {
@@ -142,7 +142,7 @@ footer p {
 }
 
 .bg-inform {
-    background: #7D95B6;
+    background: #363f41;
     color: white;
 }
 
@@ -163,11 +163,11 @@ footer p {
 }
 
 .card-top span {
-    color: #7D95B6;
+    color: #363f41;
 }
 
 .text-blue {
-    color: #0067f5;
+    color: #74c947;
 }
 
 .lspacing-3 {
@@ -196,12 +196,12 @@ footer p {
 }
 
 .btn-primm {
-    background: #0067f5;
+    background: #74c947;
     text-transform: capitalize;
 }
 
 .plan-amt {
-    color: #0067f5;
+    color: #74c947;
     font-size: 24px;
 }
 
@@ -212,7 +212,7 @@ footer p {
 
 .card-bgg {
     color: white;
-    background: #0067f5;
+    background: #74c947;
 }
 
 .card-bgg .card-top span,
@@ -347,5 +347,5 @@ p {
 }
 
 .bank-primm {
-    background: #0067f5;
+    background: #74c947;
 }
