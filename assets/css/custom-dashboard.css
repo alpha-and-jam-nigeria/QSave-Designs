@@ -379,3 +379,40 @@ p {
 .mv-card-date{
     margin-top: 27px;
 }
+.plan-content h3.icon{
+    background: #d0f7ee;
+    color: #6bab9c;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    line-height: 2.5;
+    margin-top: 10px;
+}
+.card-cursor-point{
+    cursor: pointer;
+}
+.card-goal p{
+    color: white;
+    margin: 0px;
+    padding: 18px 28px;
+}
+.card-goal p.type1{
+    background-color: #5ac8fa;
+}
+.card-goal p.type2{
+    background-color: #0276a3;
+}
+.btn-greyy{
+    background: darkgray;
+}
+.gender-inputs{
+    width: auto;
+    margin-right: 38px;
+    float: left;
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before{
+    background-color: #74c947;
+    border-color: #74c947;
+}

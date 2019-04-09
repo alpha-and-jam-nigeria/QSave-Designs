@@ -89,7 +89,7 @@
                                 Save Now</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="plans.html">
+                            <a class="nav-link" href="plans.html">
                                 <img src="assets/img/icons/organize.svg" />
                                 My Plans</a>
                         </li>
@@ -99,7 +99,7 @@
                                 Withdrawals</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="transfer.html">
+                            <a class="nav-link active" href="transfer.html">
                                 <img src="assets/img/icons/transfer.svg" />
                                 Transfers</a>
                         </li>
@@ -123,119 +123,171 @@
         <section class="section py-4 bg-body">
             <div class="container-fluid">
 
-
                 <div class="row my-4">
-                    <div class="col-md-4">
-                        <div class="mb-5">
-                            <span>Debit Cards</span>
-                            <button class="btn btn-sm btn-primm text-white pull-right" type="button"
-                                class="btn btn-primary" data-toggle="modal" data-target="#addCard"><span
-                                    class="fa fa-plus mr-3"></span>Add</button>
+                    <div class="col-md-12">
+                        <h3 class="font-weight-bold mb-4">Profile</h3>
 
-                            <!-- Add Card Modal -->
-                            <!-- Modal -->
-                            <div class="modal fade" id="addCard" tabindex="-1" role="dialog"
-                                aria-labelledby="addCardLabel" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-
-                                        <div class="modal-body">
-                                            We will verify your new card with ₦100, which will be saved into your plan
-                                        </div>
-                                        <div class="modal-footer justify-content-center">
-                                            <button type="button" class="btn btn-primm text-white">OKAY</button>
-                                            <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Close</button>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
+                        <div class="custom-tab">
+                            <a href="#" class="active">Account</a>
+                            <a href="next-kin.html" class="text-muted">Next of Kin</a>
+                            <a href="password.html" class="text-muted">Change Password</a>
                         </div>
-
-                        <div class="">
-                            <div class="bank-card bank-primm">
-                                <div class="text-right">
-                                    <div class="dropdown">
-                                        <button
-                                            class="btn dropdown-toggle setting-toggle text-capitalize text-white bg-transparent"
-                                            type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                                            aria-haspopup="true" aria-expanded="false">
-                                            <span class="fa fa-cog"></span>
-                                        </button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item text-danger" href="#">Delete</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row mt-3">
-                                    <div class="col-8">
-                                        <img class="img-fluid" src="assets/img/savings/mask-card.svg" />
-                                    </div>
-                                    <div class="col-4">
-                                        <h5 class="text-white">0895</h5>
-                                    </div>
-                                </div>
-                                <div class="row mt-3">
-                                    <div class="col-6">
-                                        <span class="card-expires">Expires on 09/2021</span>
-                                    </div>
-                                    <div class="col-6">
-                                        <img class="img-fluid card-type" src="assets/img/savings/mastercard.svg" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card-links ml-5 mt-4">
-                            <a href="#" class="active">1</a>
-                            <a href="#" class="text-muted">2</a>
-                            <a href="#" class="text-muted">3</a>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-2"></div>
-
-                    <div class="col-md-4">
-                        <div class="mb-5">
-                            <span>Debit Cards</span>
-                            <button class="btn btn-sm btn-primm text-white pull-right" type="button"
-                                class="btn btn-primary" data-toggle="modal" data-target="#addCard"><span
-                                    class="fa fa-plus mr-3"></span>Add</button>
-                        </div>
-
-                        <div class="">
-                            <div class="bank-card bank-custom">
-                                <div class="row mt-3">
-                                    <p class="pl-3">ALPHA AND JAM LIMITED</p>
-                                </div>
-                                <div class="row my-3">
-                                    <div class="col-6">
-                                        <span class="card-subb">Sterling Bank</span>
-                                    </div>
-                                    <div class="col-6 text-right">
-                                        <span>0030412654</span>
-                                    </div>
-                                </div>
-                                <div class="mr-3 mv-card-date">
-                                    <span>Nov 26, 2018</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card-links ml-5 mt-4">
-                            <a href="#" class="active">1</a>
-                            <a href="#" class="text-muted">2</a>
-                        </div>
-
+                        <hr>
                     </div>
                 </div>
 
+                <div class="card card-prim mb-3 border-1">
+                    <div class="card-body min-card-body">
+                        <div class="nodemarn">
+                            <h5 class="text-blue pb-0 font-weight-bold">Personal</h5>
+                            <hr class="my-4">
+                            <div class="row mb-4">
+                                <div class="col-md-5">
+                                    <div class="info-sect">
+                                        <p>Profile Picture</p>
+                                        <p class="text-muted">Your Current Avatar</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <button class="btn btn-round btn-greyy text-white"><span
+                                            class="fa fa-camera"></span></button>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-md-5">
+                                    <div class="info-sect">
+                                        <p>Full Name</p>
+                                        <p class="text-muted">Your full name.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <p>First Name</p>
+                                                <input type="text" class="form-control" name="" value="Samuel">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <p>Last Name</p>
+                                                <input type="text" class="form-control" name="" value="Ajiboye">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-md-5">
+                                    <div class="info-sect">
+                                        <p>Email Address</p>
+                                        <p class="text-muted">We send saving notifications and other account updates to
+                                            your confirmed email address.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="form-group">
+                                        <p>Email Address</p>
+                                        <input type="email" class="form-control" name=""
+                                            value="samuel.ajiboye@alphaandjam.net" disabled>
+                                    </div>
+                                </div>
+                            </div>
 
 
-            </div>
+                            <div class="row mb-4">
+                                <div class="col-md-5">
+                                    <div class="info-sect">
+                                        <p>Phone Number</p>
+                                        <p class="text-muted">We send sms verification messages to your phone number.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="form-group">
+                                        <p>Phone Number</p>
+                                        <input type="text" class="form-control" name="" value=" +2348092782436">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-md-5">
+                                    <div class="info-sect">
+                                        <p>Gender</p>
+                                        <p class="text-muted">What is your gender?.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="custom-control gender-inputs custom-radio mb-3">
+                                        <input name="gender" class="custom-control-input" id="male" type="radio">
+                                        <label class="custom-control-label" for="male">Male</label>
+                                    </div>
+                                    <div class="custom-control gender-inputs  custom-radio mb-3">
+                                        <input name="gender" class="custom-control-input" id="female" type="radio">
+                                        <label class="custom-control-label" for="female">Female</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-md-5">
+                                    <div class="info-sect">
+                                        <p>Date of Birth</p>
+                                        <p class="text-muted">For birthday emails.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <p>Month</p>
+                                                <select class="form-control">
+                                                    <option>Month</option>
+                                                    <option>January</option>
+                                                    <option>February</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <p>Day</p>
+                                                <select class="form-control">
+                                                    <option>Day</option>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <p>Year</p>
+                                                <select class="form-control">
+                                                    <option>Year</option>
+                                                    <option>1992</option>
+                                                    <option>1993</option>
+                                                    <option>1994</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-5"></div>
+                                <div class="col-md-7">
+                                    <button class="btn btn-primm text-white">UPDATE PROFILE</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 

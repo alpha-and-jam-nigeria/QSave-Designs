@@ -18,6 +18,11 @@
     <link type="text/css" href="./assets/css/argon.css?v=1.0.1" rel="stylesheet">
     <link type="text/css" href="./assets/css/custom-dashboard.css" rel="stylesheet">
 
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/vendor/slick/slick-theme.css" />
+
+
 </head>
 
 <body id="top">
@@ -39,7 +44,8 @@
                     <div class="col-6 text-right">
                         <div class="dropdown">
                             <button class="btn dropdown-toggle text-capitalize text-white bg-transparent" type="button"
-                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
                                 Samuel Ajiboye
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -67,8 +73,9 @@
                     </a> -->
                             </div>
                             <div class="col-6 collapse-close">
-                                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-primary"
-                                    aria-controls="navbar-primary" aria-expanded="false" aria-label="Toggle navigation">
+                                <button type="button" class="navbar-toggler" data-toggle="collapse"
+                                    data-target="#navbar-primary" aria-controls="navbar-primary" aria-expanded="false"
+                                    aria-label="Toggle navigation">
                                     <span></span>
                                     <span></span>
                                 </button>
@@ -82,7 +89,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="save.html">
+                            <a class="nav-link active" href="save.html">
                                 <img src="assets/img/icons/paper-plane.svg" />
                                 Save Now</a>
                         </li>
@@ -92,7 +99,7 @@
                                 My Plans</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="withdrawals.html">
+                            <a class="nav-link" href="withdrawals.html">
                                 <img src="assets/img/icons/withdrawing.svg" />
                                 Withdrawals</a>
                         </li>
@@ -102,15 +109,15 @@
                                 Transfers</a>
                         </li>
                         <li class="nav-item">
-                                <a class="nav-link" href="card.html">
-                                    <img src="assets/img/icons/wallet.svg" />
-                                    Bank & Cards</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="invite.html">
-                                    <img src="assets/img/icons/gift-box.svg" />
-                                    Invite Friends</a>
-                            </li>
+                            <a class="nav-link" href="card.html">
+                                <img src="assets/img/icons/wallet.svg" />
+                                Bank & Cards</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="invite.html">
+                                <img src="assets/img/icons/gift-box.svg" />
+                                Invite Friends</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -122,76 +129,52 @@
             <div class="container-fluid">
 
                 <div class="row my-4">
-                    <div class="col-md-6">
-                        <h3 class="font-weight-bold">Withdrawals</h3>
-                    </div>
-                    <div class="col-md-6 text-right">
-                            <a href="withdraw-options.html" class="btn btn-primm text-white">Withdraw</a>
+                    <div class="col-md-5 text-center mx-auto">
+                        <h3 class="font-weight-bold">Choose a Goal Type</h3>
+                        <p class="m-0"> Kickstart a saving commitment towards things you care about.</p>
                     </div>
                 </div>
 
-                <div class="row mb-5">
-                    <div class="col-md-12">
-                        <div class="card card-prim mb-3 border-1">
-                            <div class="card-body min-card-body">
-                                    <div class="table-responsive table-hover">
-                                            <table class="table trans-table align-items-center table-flush">
-                                              <thead class="thead-light">
-                                                <tr>
-                                                  <th>Plan</th>
-                                                  <th>Status</th>
-                                                  <th>Amount</th>
-                                                  <th>Date</th>
-                                                  <th>Bank</th>
-                                                </tr>
-                                              </thead>
-                                              <tbody>
-                                                <tr>
-                                                  <td>
-                                                    <span>Company Saving 1 ( Alphaandjam)</span>
-                                                  </td>
-                                                  <td>
-                                                    <span class="text-muted">Processed</span>
-                                                  </td>
-                                                  <td>
-                                                    <span>₦ 3,000</span>
-                                                  </td>
-                                                  <td>
-                                                    <span>Mar 12, 2019</span>
-                                                  </td>
-                                                  <td>
-                                                      <span>GTBANK-0223866055</span>
-                                                  </td>
-                                                </tr>
-                          
-                                                <tr>
-                                                        <td>
-                                                          <span>Company Saving 1 ( Alphaandjam)</span>
-                                                        </td>
-                                                        <td>
-                                                          <span class="text-muted">Processed</span>
-                                                        </td>
-                                                        <td>
-                                                          <span>₦ 3,000</span>
-                                                        </td>
-                                                        <td>
-                                                          <span>Mar 12, 2019</span>
-                                                        </td>
-                                                        <td>
-                                                            <span>GTBANK-0223866055</span>
-                                                        </td>
-                                                      </tr>
-                                
-                          
-                                              </tbody>
-                                            </table>
-                                            <div>
-                                              <p>1 - 2 of 2</p>
-                                            </div>
-                                          </div>
+                <!-- <div class="plans">
+                    <div>your content</div>
+                    <div>your content</div>
+                    <div>your content</div>
+                </div> -->
+
+                <div class="row mb-5 plans">
+                    <div class="col-md-5 mx-auto">
+                        <div class="card card-goal card-prim mb-3 border-1 card-cursor-point">
+                            <div class="card-goal-image">
+                                <img class="img-fluid" src="assets/img/savings/goal-image.png" />
                             </div>
+                            <p class="type1">Business and Investment</p>
                         </div>
                     </div>
+
+                    <div class="col-md-5 mx-auto">
+                        <div class="card card-goal card-prim mb-3 border-1 card-cursor-point">
+                            <div class="card-goal-image">
+                                <img class="img-fluid" src="assets/img/savings/goal-img2.png" />
+                            </div>
+                            <p class="type2">Education</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5 mx-auto">
+                        <div class="card card-goal card-prim mb-3 border-1 card-cursor-point">
+                            <div class="card-goal-image">
+                                <img class="img-fluid" src="assets/img/savings/goal-img-3.png" />
+                            </div>
+                            <p class="type2">Emergency</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="text-center mb-5">
+                    <a class="btn btn-primm btn-rounded mt-3 px-3 pl-5 text-white">Continue
+                        <span class="fa fa-chevron-right ml-4 btn-cir"></span>
+                    </a>
+
                 </div>
             </div>
         </section>
@@ -245,6 +228,21 @@
     <script src="./assets/vendor/headroom/headroom.min.js"></script>
     <!-- Argon JS -->
     <script src="./assets/js/argon.js?v=1.0.1"></script>
+    <!-- Slick Carousel -->
+    <script type="text/javascript" src="assets/vendor/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.plans').slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 3,
+                // autoplay: false,
+                // slidesToShow: 1,
+                // centerMode: true,
+                // variableWidth: true
+            });
+        });
+    </script>
 </body>
 
 </html>

@@ -82,7 +82,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="save.html">
+                            <a class="nav-link active" href="save.html">
                                 <img src="assets/img/icons/paper-plane.svg" />
                                 Save Now</a>
                         </li>
@@ -92,7 +92,7 @@
                                 My Plans</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="withdrawals.html">
+                            <a class="nav-link" href="withdrawals.html">
                                 <img src="assets/img/icons/withdrawing.svg" />
                                 Withdrawals</a>
                         </li>
@@ -122,74 +122,45 @@
             <div class="container-fluid">
 
                 <div class="row my-4">
-                    <div class="col-md-6">
-                        <h3 class="font-weight-bold">Withdrawals</h3>
-                    </div>
-                    <div class="col-md-6 text-right">
-                            <a href="withdraw-options.html" class="btn btn-primm text-white">Withdraw</a>
+                    <div class="col-md-5 text-center mx-auto">
+                        <h3 class="font-weight-bold">Should your plan be locked 
+                                after this withdrawal?</h3>
                     </div>
                 </div>
 
                 <div class="row mb-5">
-                    <div class="col-md-12">
+                    <div class="col-md-6 mx-auto">
                         <div class="card card-prim mb-3 border-1">
                             <div class="card-body min-card-body">
-                                    <div class="table-responsive table-hover">
-                                            <table class="table trans-table align-items-center table-flush">
-                                              <thead class="thead-light">
-                                                <tr>
-                                                  <th>Plan</th>
-                                                  <th>Status</th>
-                                                  <th>Amount</th>
-                                                  <th>Date</th>
-                                                  <th>Bank</th>
-                                                </tr>
-                                              </thead>
-                                              <tbody>
-                                                <tr>
-                                                  <td>
-                                                    <span>Company Saving 1 ( Alphaandjam)</span>
-                                                  </td>
-                                                  <td>
-                                                    <span class="text-muted">Processed</span>
-                                                  </td>
-                                                  <td>
-                                                    <span>₦ 3,000</span>
-                                                  </td>
-                                                  <td>
-                                                    <span>Mar 12, 2019</span>
-                                                  </td>
-                                                  <td>
-                                                      <span>GTBANK-0223866055</span>
-                                                  </td>
-                                                </tr>
-                          
-                                                <tr>
-                                                        <td>
-                                                          <span>Company Saving 1 ( Alphaandjam)</span>
-                                                        </td>
-                                                        <td>
-                                                          <span class="text-muted">Processed</span>
-                                                        </td>
-                                                        <td>
-                                                          <span>₦ 3,000</span>
-                                                        </td>
-                                                        <td>
-                                                          <span>Mar 12, 2019</span>
-                                                        </td>
-                                                        <td>
-                                                            <span>GTBANK-0223866055</span>
-                                                        </td>
-                                                      </tr>
-                                
-                          
-                                              </tbody>
-                                            </table>
-                                            <div>
-                                              <p>1 - 2 of 2</p>
+                                <div class="nodemarn">
+                                        <div class="custom-control custom-radio mb-3">
+                                                <input name="withdraw-options" class="custom-control-input" id="lock" type="radio">
+                                                <label class="custom-control-label" for="lock">
+                                                    <p class="font-weight-bold h6">Yes, Lock my plan</p>
+                                                    You can withdraw some of your savings and you set your next withdrawal date.
+                                                </label>
                                             </div>
-                                          </div>
+                                            <hr>
+                                            <div class="custom-control custom-radio mb-3">
+                                                <input name="withdraw-options" class="custom-control-input" id="pause" type="radio">
+                                                <label class="custom-control-label" for="pause">
+                                                    <p class="font-weight-bold h6">No, Pause my Savings</p>
+                                                    All your funds are withdrawn into your bank account and your automated savings get paused.
+                                                </label>
+                                            </div>
+                                            <!-- <div class="custom-control gender-inputs  custom-radio mb-3">
+                                                <input name="gender" class="custom-control-input" id="female" type="radio">
+                                                <label class="custom-control-label" for="female">Female</label>
+                                            </div> -->
+                                </div>
                             </div>
+                        </div>
+
+                        <div class="text-center">
+                            <a class="btn btn-primm btn-rounded mt-3 px-3 pl-5 text-white">Continue
+                                <span class="fa fa-chevron-right ml-4 btn-cir"></span>
+                            </a>
+
                         </div>
                     </div>
                 </div>
