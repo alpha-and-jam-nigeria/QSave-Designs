@@ -284,7 +284,7 @@ p {
 
 .custom-tab a.active {
     font-weight: bold;
-    color: #0061f9;
+    color: #74c947;
     border-bottom: 3px solid;
 }
 
@@ -348,4 +348,34 @@ p {
 
 .bank-primm {
     background: #74c947;
+}
+
+.card-type {
+    width: 50px;
+    float: right;
+    margin-right: 32px;
+}
+
+.card-expires {
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: #ffffff94;
+    font-size: 12px;
+    letter-spacing: 1.4px;
+}
+.card-links{
+    margin-bottom: 150px;
+}
+.card-links a {
+    padding: 10px 10px;
+}
+.card-links a.active {
+    color: #74c947;
+    border-bottom: 2px solid #74c947;
+}
+.bank-custom{
+    background: #dfe5ef;
+}
+.mv-card-date{
+    margin-top: 27px;
 }
