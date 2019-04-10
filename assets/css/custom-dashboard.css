@@ -20,6 +20,10 @@ html {
         padding-right: 15px;
         padding-left: 15px;
     }
+    .navbar-brand img.homepage {
+        height: 40px;
+        margin-left: 20px;
+    }
 }
 
 .navbar-nav .nav-link {
@@ -363,23 +367,29 @@ p {
     font-size: 12px;
     letter-spacing: 1.4px;
 }
-.card-links{
+
+.card-links {
     margin-bottom: 150px;
 }
+
 .card-links a {
     padding: 10px 10px;
 }
+
 .card-links a.active {
     color: #74c947;
     border-bottom: 2px solid #74c947;
 }
-.bank-custom{
+
+.bank-custom {
     background: #dfe5ef;
 }
-.mv-card-date{
+
+.mv-card-date {
     margin-top: 27px;
 }
-.plan-content h3.icon{
+
+.plan-content h3.icon {
     background: #d0f7ee;
     color: #6bab9c;
     display: inline-block;
@@ -389,30 +399,52 @@ p {
     line-height: 2.5;
     margin-top: 10px;
 }
-.card-cursor-point{
+
+.card-cursor-point {
     cursor: pointer;
 }
-.card-goal p{
+
+.card-goal p {
     color: white;
     margin: 0px;
     padding: 18px 28px;
 }
-.card-goal p.type1{
+
+.card-goal p.type1 {
     background-color: #5ac8fa;
 }
-.card-goal p.type2{
+
+.card-goal p.type2 {
     background-color: #0276a3;
 }
-.btn-greyy{
+
+.btn-greyy {
     background: darkgray;
 }
-.gender-inputs{
+
+.gender-inputs {
     width: auto;
     margin-right: 38px;
     float: left;
 }
 
-.custom-radio .custom-control-input:checked ~ .custom-control-label::before{
+.custom-radio .custom-control-input:checked~.custom-control-label::before {
     background-color: #74c947;
     border-color: #74c947;
+}
+
+.text-norm {
+    text-transform: none;
+}
+
+.section-shaped {
+    background: url(../img/brand/home-back.svg);
+}
+
+.navbar-brand img.homepage {
+    height: 40px;
+}
+
+.space-nav {
+    padding: 1.2rem 0rem;
 }

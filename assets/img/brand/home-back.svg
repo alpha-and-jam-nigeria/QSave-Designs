@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="768" viewBox="0 0 1366 768">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.538" x2="0" y2="0.521" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#74c947"/>
+      <stop offset="1" stop-color="#1fa979"/>
+    </linearGradient>
+    <clipPath id="clip-home-back">
+      <rect width="1366" height="768"/>
+    </clipPath>
+  </defs>
+  <g id="home-back" clip-path="url(#clip-home-back)">
+    <rect width="1366" height="768" fill="url(#linear-gradient)"/>
+    <g id="Group_13" data-name="Group 13" transform="translate(790.268 306.888) rotate(-11)" opacity="0.045">
+      <g id="piggy-bank" transform="translate(-877.859 -343.356)">
+        <g id="Group_1" data-name="Group 1" transform="translate(0 0)">
+          <path id="Path_2" data-name="Path 2" d="M659.41,339.258H636.483c-15.122-46.343-44.717-87.482-84.23-119.353a21.956,21.956,0,0,0-.65-4.553c-8.293-29.107,1.951-55.612,13.822-74.637,8.293-13.334-2.439-30.407-18.049-28.456-34.96,4.39-59.026,17.236-75.612,31.708a73.472,73.472,0,0,0-23.09,38.05C423.63,285.76,330.132,363,218.746,363A235.171,235.171,0,0,1,75,314.217a229.759,229.759,0,0,0-14.8,150.9h0a2.845,2.845,0,0,0,.163.813A234.706,234.706,0,0,0,79.88,517.8c11.22,24.228,27.481,52.522,49.92,75.449,32.359,33.334,37.887,74.637,38.7,92.523v8.781h0a17.024,17.024,0,0,0,16.911,15.773H288.179a16.9,16.9,0,0,0,16.911-16.911V668.049a353.472,353.472,0,0,0,45.693,3.09,328.134,328.134,0,0,0,35.936-1.951v24.228a16.9,16.9,0,0,0,16.911,16.911H506.723a16.9,16.9,0,0,0,16.911-16.911V668.049c.163-8.455,3.089-42.115,34.961-70.9l3.415-2.927c.325-.325.65-.488.976-.813h0c35.448-31.546,61.628-70.9,75.124-114.8h21.627a31.229,31.229,0,0,0,31.22-31.221V370.479A31.72,31.72,0,0,0,659.41,339.258Zm-128.622,5.529a25.529,25.529,0,1,1,25.529-25.529A25.469,25.469,0,0,1,530.788,344.787Z" transform="translate(-53.7 -112.106)" fill="none" stroke="#000" stroke-width="33"/>
+        </g>
+      </g>
+    </g>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="140" cy="140" r="140" transform="translate(817 -85)" fill="#fff" opacity="0.072"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="199.5" cy="199.5" r="199.5" transform="translate(906 114)" fill="#fff" opacity="0.072"/>
+  </g>
+</svg>
