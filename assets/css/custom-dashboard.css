@@ -479,3 +479,29 @@ p {
 .headroom--not-top{
     background-color: #363f41!important;
 }
+.navbar-color{
+    background: #74c947;
+}
+.home-header{
+    margin-top: 80px;
+}
+.site-logos img{
+    height: 34px;
+    margin: 0px 35px 23px 0px;
+}
+.section-logos{
+    background: whitesmoke;
+}
+.min-100{
+    min-height: 100vh;
+}
+.reg-form-card{
+    text-align: center;
+}
+.reg-form-card img{
+    width: 160px;
+}
+.custom-checkbox .custom-control-input:checked ~ .theme-label::before{
+    background-color: #74c947;
+    border-color: #74c947;
+}
