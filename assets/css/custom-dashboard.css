@@ -24,6 +24,9 @@ html {
         height: 40px;
         margin-left: 20px;
     }
+    .header-device{
+        display: none;    
+    }
 }
 
 .navbar-nav .nav-link {
@@ -439,6 +442,7 @@ p {
 
 .section-shaped {
     background: url(../img/brand/home-back.svg);
+    background-attachment: fixed;
 }
 
 .navbar-brand img.homepage {
@@ -447,4 +451,31 @@ p {
 
 .space-nav {
     padding: 1.2rem 0rem;
+}
+.header-device{
+    width: 300px;
+    transform: rotate(10deg);
+    position: absolute;
+    z-index: 99999;
+}
+.invest-heading{
+    padding: 70px 0px;
+}
+.other-sec-img{
+    width: 80%;
+}
+.section-cardd{
+    margin-top: -50px;
+}
+.card-sec-bg{
+    background: url(../img/brand/home-back.svg);
+    background-position: center;
+    background-attachment: fixed;
+    background-position: center;
+}
+.section-footer{
+    background: #363f41;
+}
+.headroom--not-top{
+    background-color: #363f41!important;
 }
