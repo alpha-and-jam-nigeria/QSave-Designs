@@ -505,3 +505,29 @@ p {
     background-color: #74c947;
     border-color: #74c947;
 }
+.contact-txt{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.signup-control{
+    width: 140px;
+    margin-bottom: 30px;
+}
+.details-img img{
+    margin: 20px;
+    width: 100px;
+}
+.veri{
+    width: 130px;
+    margin: 23px 0px;
+}
+.content-header{
+    border-top: 1px solid #56b722;
+    background: #74c947;
+    padding: 53px 0px;   
+    margin-bottom: 70px;
+}
+.home-header-v{
+    margin-top: 30px;
+}
